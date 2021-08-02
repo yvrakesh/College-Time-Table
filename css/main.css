@@ -294,29 +294,29 @@ tr td a:hover{
     content: "Advanced CN";
   }
   table tbody tr td:nth-child(3):before {
-    content: "Artificial Intelligence";
+    content: "AI";
   }
   table tbody tr td:nth-child(4):before {
-    content: "Machine Learning";
+    content: "ML";
   }
   table tbody tr td:nth-child(5):before {
     content: "Security Lab";
   }
   table tbody tr td:nth-child(6):before {
-    content: "Web Programming";
+    content: "WebP";
   }
   table tbody tr td:nth-child(7):before {
     content: "BTech Project";
   }
   table tbody tr td:nth-child(8)::before{
-    content: "Topics in Cryptography"
+    content: "TIC"
   }
 
-  .column4,
+  /* .column4,
   .column5,
   .column6 {
     text-align: left;
-  }
+  } */
 
   .column4,
   .column5,
@@ -330,6 +330,10 @@ tr td a:hover{
 
   tbody tr {
     font-size: 14px;
+  }
+  
+  .wrap-table100 {
+    width: 100%;
   }
 }
 
