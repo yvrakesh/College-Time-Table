@@ -194,6 +194,12 @@ tbody tr:hover {
 tbody tr td:hover {
   cursor: pointer;
 }
+tr td a{
+  text-decoration: none!important;
+}
+tr td a:hover{
+  color: black!important;
+}
 .ntg:hover {
   cursor: unset !important;
 }
