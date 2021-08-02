@@ -1,62 +1,64 @@
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-
 @font-face {
   font-family: OpenSans-Regular;
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
 }
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body, html {
-	height: 100%;
-	font-family: sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: sans-serif;
 }
 
 /* ------------------------------------ */
 a {
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
+  color: #f5f5f5;
 }
 
 a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
+  outline: none !important;
 }
 
 /* ------------------------------------ */
-h1,h2,h3,h4,h5,h6 {margin: 0px;}
-
-p {margin: 0px;}
-
-ul, li {
-	margin: 0px;
-	list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
 }
 
+p {
+  margin: 0px;
+}
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
+}
 
 /* ------------------------------------ */
 input {
   display: block;
-	outline: none;
-	border: none !important;
+  outline: none;
+  border: none !important;
 }
 
 textarea {
@@ -64,35 +66,28 @@ textarea {
   outline: none;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   border-color: transparent !important;
 }
 
 /* ------------------------------------ */
 button {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
-
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Utiliti ]*/
-
-
-
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
@@ -139,7 +134,8 @@ table {
 table * {
   position: relative;
 }
-table td, table th {
+table td,
+table th {
   padding-left: 8px;
 }
 table thead tr {
@@ -152,21 +148,24 @@ table tbody tr {
 table tbody tr:last-child {
   border: 0;
 }
-table td, table th {
+table td,
+table th {
   text-align: left;
 }
-table td.l, table th.l {
+table td.l,
+table th.l {
   text-align: right;
 }
-table td.c, table th.c {
+table td.c,
+table th.c {
   text-align: center;
 }
-table td.r, table th.r {
+table td.r,
+table th.r {
   text-align: center;
 }
 
-
-.table100-head th{
+.table100-head th {
   font-family: OpenSans-Regular;
   font-size: 18px;
   color: #fff;
@@ -189,14 +188,14 @@ tbody tr {
 
 tbody tr:hover {
   /* color: #555555; */
-  color:white;
+  color: white;
   background-color: #f5f5f5;
 }
-tbody tr td:hover{
+tbody tr td:hover {
   cursor: pointer;
 }
-.ntg:hover{
-  cursor: unset!important;
+.ntg:hover {
+  cursor: unset !important;
 }
 
 .column1 {
@@ -233,12 +232,14 @@ tbody tr td:hover{
   padding-right: 62px;
 }
 
-
 @media screen and (max-width: 992px) {
   table {
     display: block;
   }
-  table > *, table tr, table td, table th {
+  table > *,
+  table tr,
+  table td,
+  table th {
     display: block;
   }
   table thead {
