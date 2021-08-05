@@ -290,6 +290,9 @@ tr td a:hover{
     left: 30px;
     top: 0;
   }
+  table tbody tr td h1:before{
+    width: 0%;
+  }
   table tbody tr td:nth-child(2):before {
     content: "Advanced CN";
   }
@@ -310,22 +313,6 @@ tr td a:hover{
   }
   table tbody tr td:nth-child(8)::before{
     content: "TIC"
-  }
-
-  /* .column4,
-  .column5,
-  .column6 {
-    text-align: left;
-  } */
-
-  .column4,
-  .column5,
-  .column6,
-  .column1,
-  .column2,
-  .column3 {
-    width: 100%;
-    padding: 0;
   }
 
   tbody tr {
