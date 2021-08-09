@@ -281,6 +281,14 @@ tr td a:hover{
   table tbody tr td h1:before{
     width: 0%;
   }
+  .left{
+    float: left;
+    margin-left: 5%;
+  }
+  .right{
+    float: right;
+    margin-right: 5%;
+  }
   /* table tbody tr td:nth-child(2):before {
     content: "Advanced CN";
   } */
